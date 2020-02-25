@@ -20,4 +20,5 @@ const catMode = (request, response) => {
     response.status(200).send(snippet).end();
 }
 
-app.get('/dog', dogMode)
+app.get('/dog', dogMode);
+app.get('/dog', catMode);
